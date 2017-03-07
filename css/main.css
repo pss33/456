@@ -1,0 +1,336 @@
+/****Public Css******/
+.public-header {
+    height: 1.86rem;
+    line-height: 1.82rem;
+    width: 100vw;
+    text-align: center;
+    border-bottom: 2px solid #07ca61;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 0.76rem;
+    color: #333;
+    background: #fff;
+}
+
+    .public-header button {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1.24rem;
+        height: 1.86rem;
+        background: url('../img/icon-back.png') no-repeat center;
+    }
+
+
+
+
+
+
+/*****Login.html*****/
+.login-header {
+    width: 100vw;
+    height: 6.1rem;
+    background: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dadada;
+}
+
+    .login-header img {
+        width: 5.14rem;
+        height: 1.94rem;
+    }
+
+
+
+.login-form {
+    padding: 0 0.4rem;
+}
+    .login-form .form-group {
+        height: 1.98rem;
+        line-height: 1.98rem;
+        box-sizing: border-box;
+        border-bottom: 1px solid #dadada;
+        font-size: 0.64rem;
+        overflow: hidden;
+    }
+        .login-form .form-group label {
+            display: flex;
+        }
+            .login-form .form-group label span {
+                color: #969696;
+            }
+            .login-form .form-group label button {
+                display: inline-block;
+                height: 1.98rem;
+                color: #07ca61;
+                background: none;
+                float: right;
+                font-size: 0.64rem;
+            }
+            .login-form .form-group label input {
+                flex: 1;
+                font-size: 0.64rem;
+                height: 1.98rem;
+                line-height: 1.98rem;
+                color: #333;
+                padding-left: 1.1rem;
+            }
+    .login-tips {
+        font-size: 0.56rem;
+        height: 0.56rem;
+        line-height: 0.56rem;
+        color: #969696;
+        background: url('../img/icon-agree.png') no-repeat left center ;
+        background-size: contain;
+        padding-left: 0.74rem;
+        margin-top: 0.4rem;
+    }
+        .login-tips span {
+            color: #07ca61;
+        }
+
+.login-button,.reason-submit, .dinner-submit-button {
+    display: block;
+    width: calc(100vw - 0.8rem);
+    height: 1.92rem;
+    line-height: 1.92rem;
+    background: #07ca61;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 0.64rem;
+    margin: 1.6rem auto 0;
+
+}
+
+
+
+
+
+
+/******CancelOrder.html******/
+
+    .error-tips {
+        height: 1.98rem;
+        width: 100vw;
+        box-sizing: border-box;
+        background: #f88266;
+        color: #fff;
+        font-size: 0.52rem;
+        line-height: 0.72rem;
+        text-align: center;
+        padding: 0.3rem 0.6rem 0;
+    }
+
+.cancel-form-title {
+    border-bottom: 1px solid #dadada;
+    text-align: center;
+    padding: 1rem 0;
+}
+    .cancel-form-title h2 {
+        font-size: 0.76rem;
+        line-height: 0.76rem
+        color: #333;
+        margin-bottom: 0.4rem;
+    }
+    .cancel-form-title h4 {
+        font-size: 0.56rem;
+        line-height: 0.56rem;
+        color: #07ca61;
+    }
+
+.radio-group {
+    padding: 0 0.4rem;
+}
+    .radio-group label {
+        display: flex;
+        height: 1.98rem;
+        line-height: 1.98rem;
+        border-bottom: 1px solid #dadada;
+        box-sizing: border-box;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .radio-group p {
+            font-size: 0.64rem;
+            color: #333;
+        }
+    .radio-group div span {
+        display: block;
+        width: 0.8rem;
+        height: 0.8rem;
+        border: 1px solid #dadada;
+        border-radius: 50%;
+    }
+
+    .radio-group div input:checked + span {
+        background: url('../img/checked.png') no-repeat center;
+        border-color: transparent;
+    }
+
+
+
+
+
+
+/*********dinnerDetail.html**********/
+
+.bac {
+    background: #ebebeb;
+}
+
+.user-info {
+    padding: 0.4rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .user-info-content {
+        display: flex;
+        align-items: center;
+    }
+        .user-info-content img{
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            margin-right: 0.4rem;
+        }
+
+        .user-info-detail h4.user-car-pai{
+            color: #333;
+            font-size: 0.64rem;
+            line-height: 0.64rem;
+        }
+
+        .user-info-detail p.car-type {
+            color: #969696;
+            font-size: 0.48rem;
+            line-height: 0.48rem;
+            margin: 0.36rem 0 0.4rem;
+        }
+
+        .stars {
+            height: 0.4rem;
+            width: 100%;
+            display: flex;
+        }
+            .stars .star-item {
+                display: block;
+                width: 0.4rem;
+                height: 0.4rem;
+                margin-right: 0.08rem;
+                background: url('../img/star.png') no-repeat 0 0 / 0.4rem;
+
+            }
+            .stars .star-item.active {
+                background-position: 0 bottom;
+            }
+    .cellphone {
+        display: block;
+        width: 1.6rem;
+        height: 1.6rem;
+        background: url('../img/icon-phone.jpg') no-repeat center;
+    }
+
+
+.dinner-detail {
+    padding: 0 0.4rem;
+    background: #fff;
+    margin-top: 0.4rem;
+}
+
+    .dinner-load {
+        height: 1.38rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #dadada;
+        box-sizing: border-box;
+    }
+    .dinner-load .dinner-time {
+        font-size: 0.48rem;
+        color: #969696;
+        background: url('../img/icon-cloak.jpg') no-repeat left center / contain;
+        padding-left: 0.72rem;
+    }
+    .dinner-state {
+        color: #07ca61;
+        font-size: 0.52rem;
+    }
+
+.detail-info {
+    height: 1.78rem;
+    border-bottom: 1px solid #dadada;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.64rem;
+}
+    .detatil-info .detail-info-label {
+        color: #969696;
+    }
+    .detail-info .detail-info-txt {
+        color: #333;
+    }
+
+    .info-cloumn {
+        height: 2.6rem;
+    }
+
+    .info-cloumn .detail-info-txt{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+        .info-cloumn span.user-iphone {
+            color: #969696;
+        }
+
+    .info-cloumn .detail-info-label {
+        align-self: flex-start;    /*单独设置里面的子元素的对齐方式*/
+        margin-top: 0.6rem;
+        line-height: 0.64rem;
+    }
+
+.dinner-price {
+    margin-top: 0.6rem;
+    font-size: 0.64rem;
+    color: #969696;
+    display: flex;
+    justify-content: space-between;
+}
+    p.dinner-price-number {
+        color: #333;
+    }
+        .dinner-price-label span {
+            color: #f32f00
+        }
+        .dinner-yhq-chose  {
+            display: flex;
+            align-items: center;
+        }
+        .dinner-yhq-chose span{
+            display: block;
+            width: 0.28rem;
+            height: 0.48rem;
+            margin-left: 0.36rem;
+            background: url('../img/arrow-right.png') no-repeat left center;
+        }
+
+    .dinner-total {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.64rem;
+        color: #333;
+        margin-top: 0.72rem;
+    }
+        .dinner-detail .dinner-total-num {
+            color: #f32f00;
+            font-size: 0.84rem;
+        }
